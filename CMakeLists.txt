@@ -15,7 +15,6 @@ if(BUILD_CATKIN_PACKAGE)
   find_package(catkin REQUIRED)
   catkin_package(
     INCLUDE_DIRS include
-    LIBRARIES GSL
   )
 endif(BUILD_CATKIN_PACKAGE)
 
@@ -111,8 +110,3 @@ if (NOT BUILD_CATKIN_PACKAGE AND GSL_TEST)
 	enable_testing()
 	add_subdirectory(tests)
 endif ()
-
-
-
-
-
