@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>gsl_catkin</name>
-  <version>1.0.14</version>
+  <version>1.0.15</version>
   <description>Catkinized Guideline Support Library</description>
 
   <maintainer email="ghottiger@anybotics.com">Gabriel Hottiger</maintainer>
